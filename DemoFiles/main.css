@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body {
+	font: 12px verdana;
+	background: #fff;
+	line-height: 130%;
+	width: 640px;
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	table-layout: auto;
+	width: 100%;
+}
+
+table.list tbody tr:hover td {
+	background-color: #dcdcdc;
+}
+
+table.list tbody td {
+	cursor: pointer;
+	padding: 0.5em;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+.selected {
+	color: #fff
+}
+
+.selected a {
+	border-bottom: 1px #ffffff dashed;
+	color: #fff;
+}
+
+.selected td {
+	background-color: gray;
+}
+
+input
+{
+	margin-left: -2px;
+	width: 100%;
+}
+
+td a
+{
+	border-bottom: 1px #000000 dashed;
+	text-decoration: none;
+	color: #000000;
+}
+
+td a:hover
+{
+	cursor: text;
+}
